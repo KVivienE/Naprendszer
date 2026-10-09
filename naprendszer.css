@@ -1,6 +1,8 @@
 body{
+  background-image: url(./hatter.png);
   padding: 10px 40px;
   font-family: Verdana, sans-serif;
+  color: #FFF3C4 ;
 }
 
 h1, h2{
@@ -18,10 +20,12 @@ p{
 }
 
 a{
+  color: #FFB347  ;
   text-decoration: none;
 }
 
 #naprajz{
+  width: 220px;
   float: left;
 }
 
@@ -30,14 +34,17 @@ a{
 }
 
 .oszlopok{
+  height: 150%;
   column-count: 3;
 }
 
 .fk{
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .kiemel{
+  background-color: #2B3A67  ;
+  font-style: italic;
   font-size: 90%;
   padding: 10px;
   border: 1px dashed #FFB347;
@@ -47,4 +54,10 @@ a{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+img{
+  margin: 10px;
+}
+ul{
+  list-style: square;
 }
